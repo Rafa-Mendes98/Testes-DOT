@@ -26,17 +26,16 @@ Requisitos:
 Node.js: A versão recomendada é a 16.x ou superior.
 Cypress: Para executar os testes automatizados.
 
-Passos para Rodar os Testes:
+Passos para Rodar o Teste:
 
 - Clonar o repositório:
 
-		git clone https://github.com/seu-usuario/nome-do-repositorio.git
+		git clone https://github.com/Rafa-Mendes98/Testes-DOT.git
 
 - Instalar dependências:
 
-Navegue até o diretório do projeto e instale as dependências necessárias.
+Navegue até o diretório cypress-amazon-test e instale as dependências necessárias.
 
-		cd nome-do-repositorio
 		npm install
 
 - Executar os testes:
@@ -53,3 +52,39 @@ Alternativamente, para rodar os testes em modo headless (sem interface gráfica)
 
 # Questão 2
 
+Validar api fornecida com um conjunto de testes.
+
+Descrição dos testes:
+
+1. Teste GET
+
+Este teste realiza uma requisição GET para a URL https://jsonplaceholder.typicode.com/posts, que retorna uma lista de posts. As validações incluem:
+- Verificação de que a resposta tem o status HTTP 200;
+- Validação de que o retorno é um JSON válido e que o conteúdo é uma lista;
+- Verificação de que cada item na lista de posts contém as chaves esperadas: userId, id, title, e body.
+
+2. Teste POST
+
+Este teste realiza uma requisição POST para a mesma URL, criando um novo post com dados aleatórios. As validações incluem:
+- Verificação de que a resposta tem o status HTTP 201;
+- Validação de que o campo id foi gerado na resposta;
+- Verificação de que os dados enviados no POST (title e body) são consistentes com os dados retornados pela API;
+- Validação de que o ID gerado pela API é único.
+
+3. Teste de ID Único
+
+Após cada requisição POST, o ID gerado é verificado para garantir que a API está criando IDs únicos. Se o ID gerado já foi retornado em uma requisição anterior, o teste falha.
+
+Requisitos:
+
+Python 3.X - Biblioteca Requests.
+
+Passos para rodar os testes:
+
+Caso já tenha clonado o repositório, acesse o diretório python-api-test e execute:
+
+		python test_api.py
+
+Se não clonou ainda, efetue:
+
+  		git clone https://github.com/Rafa-Mendes98/Testes-DOT.git
