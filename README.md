@@ -1,6 +1,6 @@
 # Testes-DOT
 
-Este repositório contém a resolução das questões do Teste da DOT.
+Este repositório contém a resolução das questões do Teste da DOT, além do README tradicional para executar os testes, irei incluir as resoluções com mais detalhes e responder as questões 3 e 4.
 
 # Questão 1
 
