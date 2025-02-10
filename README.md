@@ -83,7 +83,7 @@ Passos para rodar os testes:
 
 Caso já tenha clonado o repositório, acesse o diretório python-api-test e execute:
 
-		python test_api.py
+		python api-test.py
 
 Se não clonou ainda, efetue:
 
