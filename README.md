@@ -186,11 +186,11 @@ Esse pipeline automatiza a execução de testes em diferentes cenários e garant
 
 2. Sim, eu já utilizei ferramentas de IA para testes automatizados.
 
-Ferramenta: Usei o ChatGPT para gerar casos de teste e scripts automatizados.
+- Ferramenta: Usei o ChatGPT para gerar casos de teste e scripts automatizados.
 
-Propósito: Foi aplicada para geração automática de casos de teste, ajudando a criar cenários variados e cobrindo uma ampla gama de entradas que poderiam ser feitas por um usuário. Isso foi particularmente útil para expandir a cobertura de testes de maneira rápida e eficiente.
+- Propósito: Foi aplicada para geração automática de casos de teste, ajudando a criar cenários variados e cobrindo uma ampla gama de entradas que poderiam ser feitas por um usuário. Isso foi particularmente útil para expandir a cobertura de testes de maneira rápida e eficiente.
 
-Impacto e resultados obtidos: A utilização de ChatGPT na geração de casos de teste aumentou a produtividade, pois a ferramenta ajudou a cobrir mais cenários, incluindo os de difícil previsão. Isso reduziu o tempo de criação manual de testes e proporcionou uma cobertura maior.
+- Impacto e resultados obtidos: A utilização de ChatGPT na geração de casos de teste aumentou a produtividade, pois a ferramenta ajudou a cobrir mais cenários, incluindo os de difícil previsão. Isso reduziu o tempo de criação manual de testes e proporcionou uma cobertura maior.
 
 3. Mesmo sem ter utilizado IA em todos os aspectos dos testes automatizados, acredito que a Inteligência Artificial pode ser um divisor de águas para a automação de testes. Algumas formas em que a IA pode melhorar esse processo incluem:
 
