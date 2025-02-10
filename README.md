@@ -1,8 +1,10 @@
 # Testes-DOT
 
+Este repositório contém a resolução das questões do Teste da DOT.
+
 # Questão 1
 
-Este repositório contém um teste automatizado desenvolvido com Cypress para validar a funcionalidade de adicionar um livro ao carrinho no site da Amazon Brasil.
+Validar a funcionalidade de adicionar um livro ao carrinho no site da Amazon Brasil.
 
 Descrição do Teste:
 
