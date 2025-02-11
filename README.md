@@ -81,13 +81,17 @@ Python 3.X - Biblioteca Requests.
 
 Passos para rodar os testes:
 
-Caso já tenha clonado o repositório, acesse o diretório python-api-test e execute:
+Caso já tenha clonado o repositório, acesse o diretório python-api-test e instale as dependências:
 
-		python api-test.py
+		pip install -r requirements.txt
 
 Se não clonou ainda, efetue:
 
   		git clone https://github.com/Rafa-Mendes98/Testes-DOT.git
+
+Para executar os testes:
+
+  		python api-test.py
 
 # Questão 3
 
