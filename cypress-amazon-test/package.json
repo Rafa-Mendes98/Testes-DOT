@@ -1,0 +1,10 @@
+{
+  "name": "cypress-amazon-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress open",
+    "test:headless": "cypress run"
+  }
+}
