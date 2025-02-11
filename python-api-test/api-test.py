@@ -21,7 +21,7 @@ def teste_get():
         print(f"GET request failed with status code: {response.status_code}")
         return
     
-    # Validar se a resposta é um JSON e se é uma lista de posts
+    # Valida se a resposta é um JSON e se é uma lista de posts
     try:
         dados = response.json()
         if isinstance(dados, list):
@@ -55,14 +55,14 @@ def teste_post():
     # Enviando requisição POST
     response = requests.post(url, json=dados)
     
-    # Validar resposta
+    # Valida resposta
     if response.status_code == 201:
         print("POST request successful!")
     else:
         print(f"POST request failed with status code: {response.status_code}")
         return
     
-    # Validar se o ID foi gerado e está presente na resposta
+    # Valida se o ID foi gerado e está presente na resposta
     try:
         dados_resposta = response.json()
         if "id" in dados_resposta:
@@ -74,7 +74,7 @@ def teste_post():
         print("Resposta não é um JSON válido.")
         return
 
-    # Validar se os dados enviados são consistentes
+    # Valida se os dados enviados são consistentes
     if dados_resposta['title'] == dados['title'] and dados_resposta['body'] == dados['body']:
         print("POST data consistency check passed.")
     else:
